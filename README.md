@@ -1,12 +1,11 @@
 # hass-lucide-icons
 
-This is custom component that enables usage of [Lucide](https://lucide.dev/) icons.
+This is custom component enables the usage of [Lucide](https://lucide.dev/) icon pack.
+Huge thanks to Thomas Lovén and his custom component [hass-fontawesome](https://github.com/thomasloven/hass-fontawesome) for providing a good template to achieve this.
 
-Huge thanks to Thomas Lovén and his custom component [hass-fontawesome](https://github.com/thomasloven/hass-fontawesome)
+This custom component is in early stages and is being actively developed and improved.
 
-This custom component does work but still needs cleanup of code, which will follow.
-
-HACS installation is in works.
+HACS respository installation is in works and pending. You may however add this repository as `Custom Repository` in HACS to install it.
 
 ## Installation
 
@@ -21,4 +20,4 @@ lucide:trash
 lucide:circle-dot
 
 ...
-```git
+```
