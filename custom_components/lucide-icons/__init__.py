@@ -1,4 +1,8 @@
 from homeassistant.components.frontend import add_extra_js_url
+from homeassistant.components.http.view import HomeAssistantView
+
+import json
+from os import walk, path
 
 DOMAIN = "lucide-icons"
 SCRIPT_NAME = "main.js"
@@ -7,6 +11,26 @@ LOADER_URL = f"/{DOMAIN}/{SCRIPT_NAME}"
 ICON_URL = f"/{DOMAIN}/icons"
 
 DATA_EXTRA_MODULE_URL = "frontend_extra_module_url"
+
+class IconListView(HomeAssistantView):
+
+    requires_auth = False
+
+    def __init__(self, url, iconpath):
+        self.url = url
+        self.iconpath = iconpath
+        self.name = "Icon Listing"
+
+    async def get(self, request):
+        icons = []
+        for (dirpath, dirnames, filenames) in walk(self.iconpath):
+            icons.extend(
+                [
+                    {"name": path.join(dirpath[len(self.iconpath):], fn[:-4])}
+                    for fn in filenames if fn.endswith(".svg")
+                ]
+            )
+        return json.dumps(icons)
 
 async def async_setup(hass, config):
     
@@ -24,6 +48,14 @@ async def async_setup(hass, config):
         ICON_URL,
         hass.config.path(f"custom_components/{DOMAIN}/data/icons"),
         True,
+    )
+
+    # Register icon view, aka list when typing icon name
+    hass.http.register_view(
+        IconListView(
+            f'/{DOMAIN}/list',
+            hass.config.path(f"custom_components/{DOMAIN}/data/icons")
+        )
     )
 
     # Return boolean to indicate that initialization was successful.
