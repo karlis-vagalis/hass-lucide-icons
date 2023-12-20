@@ -9,7 +9,7 @@ HACS respository installation is in works and pending. You may however add this 
 
 ## Installation
 
-1. Copy `lucideicons` folder to your custom components.
+1. Copy `lucide-icons` folder to your custom components.
 2. Restart HA
 3. Install component under HA Integrations
 
