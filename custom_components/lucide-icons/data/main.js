@@ -27,7 +27,6 @@ async function getIcon(name) {
 async function getIconList() {
     const data = await fetch(`/${DOMAIN}/list`);
     const text = await data.text();
-    console.log(text);
     return JSON.parse(text);
 }
 
