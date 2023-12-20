@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   stroke="currentColor"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <path
+     id="circle1"
+     style="color:#000000;fill:#000000;-inkscape-stroke:none"
+     d="M 12 2 C 8.6981427 2 6 4.6981427 6 8 C 6 9.9395972 6.9315959 11.671129 8.3691406 12.769531 C 5.2119663 14.169606 3 17.332715 3 21 A 1 1 0 0 0 4 22 A 1 1 0 0 0 5 21 C 5 17.122167 8.122169 14 12 14 C 15.877831 14 19 17.122167 19 21 A 1 1 0 0 0 20 22 A 1 1 0 0 0 21 21 C 21 17.332715 18.788034 14.169606 15.630859 12.769531 C 17.068404 11.671129 18 9.9395972 18 8 C 18 4.6981427 15.301858 2 12 2 z M 12 4 C 14.220979 4 16 5.7790208 16 8 C 16 10.220979 14.220979 12 12 12 C 9.7790208 12 8 10.220979 8 8 C 8 5.7790208 9.7790208 4 12 4 z "
+     stroke-width="0" />
+</svg>

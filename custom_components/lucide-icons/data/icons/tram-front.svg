@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   stroke="currentColor"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg6"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <path
+     id="rect1"
+     style="color:#000000;fill:#000000;-inkscape-stroke:none"
+     d="M 6 2 C 4.3553005 2 3 3.3553005 3 5 L 3 17 C 3 18.644699 4.3553005 20 6 20 L 6.1308594 20 L 5.1679688 21.445312 A 1 1 0 0 0 5.4453125 22.832031 A 1 1 0 0 0 6.8320312 22.554688 L 8.5351562 20 L 15.464844 20 L 17.167969 22.554688 A 1 1 0 0 0 18.554688 22.832031 A 1 1 0 0 0 18.832031 21.445312 L 17.869141 20 L 18 20 C 19.644699 20 21 18.644699 21 17 L 21 5 C 21 3.3553005 19.644699 2 18 2 L 6 2 z M 6 4 L 11 4 L 11 10 L 5 10 L 5 5 C 5 4.4287039 5.4287039 4 6 4 z M 13 4 L 18 4 C 18.571296 4 19 4.4287039 19 5 L 19 10 L 13 10 L 13 4 z M 5 12 L 19 12 L 19 17 C 19 17.571296 18.571296 18 18 18 L 6 18 C 5.4287039 18 5 17.571296 5 17 L 5 12 z M 8 14 A 1 1 0 0 0 7 15 A 1 1 0 0 0 8 16 A 1 1 0 0 0 9 15 A 1 1 0 0 0 8 14 z M 16 14 A 1 1 0 0 0 15 15 A 1 1 0 0 0 16 16 A 1 1 0 0 0 17 15 A 1 1 0 0 0 16 14 z "
+     stroke-width="0" />
+</svg>

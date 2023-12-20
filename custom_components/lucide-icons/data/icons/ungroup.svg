@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   stroke="currentColor"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg2"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <path
+     id="rect1"
+     style="color:#000000;fill:#000000;-inkscape-stroke:none"
+     d="M 6 3 C 4.9092994 3 4 3.9092994 4 5 L 4 9 C 4 10.090701 4.9092994 11 6 11 L 12 11 C 13.090701 11 14 10.090701 14 9 L 14 5 C 14 3.9092994 13.090701 3 12 3 L 6 3 z M 6 5 L 12 5 L 12 9 L 6 9 L 6 5 z M 12 13 C 10.909299 13 10 13.909299 10 15 L 10 19 C 10 20.090701 10.909299 21 12 21 L 18 21 C 19.090701 21 20 20.090701 20 19 L 20 15 C 20 13.909299 19.090701 13 18 13 L 12 13 z M 12 15 L 18 15 L 18 19 L 12 19 L 12 15 z "
+     stroke-width="0" />
+</svg>
