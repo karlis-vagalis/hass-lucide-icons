@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="24"
-   height="24"
-   viewBox="0 0 24 24"
-   fill="none"
-   stroke="currentColor"
-   stroke-width="2"
-   stroke-linecap="round"
-   stroke-linejoin="round"
-   version="1.1"
-   id="svg3"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs3" />
-  <path
-     id="path1"
-     style="color:#000000;fill:#000000;-inkscape-stroke:none"
-     d="M 6 1 C 4.3549936 1 3 2.3549936 3 4 L 3 20 C 3 21.645006 4.3549936 23 6 23 L 18 23 C 19.645006 23 21 21.645006 21 20 L 21 7.5 A 1.0001 1.0001 0 0 0 20.707031 6.7929688 L 15.207031 1.2929688 A 1.0001 1.0001 0 0 0 14.5 1 L 6 1 z M 6 3 L 14.085938 3 L 19 7.9140625 L 19 20 C 19 20.564128 18.564128 21 18 21 L 6 21 C 5.4358718 21 5 20.564128 5 20 L 5 4 C 5 3.4358718 5.4358718 3 6 3 z M 12 8 A 1 1 0 0 0 11 9 L 11 13 A 1 1 0 0 0 12 14 A 1 1 0 0 0 13 13 L 13 9 A 1 1 0 0 0 12 8 z M 12 16 A 1 1 0 0 0 11 17 A 1 1 0 0 0 12 18 L 12.009766 18 A 1 1 0 0 0 13.009766 17 A 1 1 0 0 0 12.009766 16 L 12 16 z "
-     stroke-width="0" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="hidden,warning,alert,danger,protected,exclamation mark" categories="files,notifications">
+  
+  <path d="M 6 1 C 4.3549936 1 3 2.3549936 3 4 L 3 20 C 3 21.645006 4.3549936 23 6 23 L 18 23 C 19.645006 23 21 21.645006 21 20 L 21 7.5 A 1.0001 1.0001 0 0 0 20.707031 6.7929688 L 15.207031 1.2929688 A 1.0001 1.0001 0 0 0 14.5 1 L 6 1 z M 6 3 L 14.085938 3 L 19 7.9140625 L 19 20 C 19 20.564128 18.564128 21 18 21 L 6 21 C 5.4358718 21 5 20.564128 5 20 L 5 4 C 5 3.4358718 5.4358718 3 6 3 z M 12 8 A 1 1 0 0 0 11 9 L 11 13 A 1 1 0 0 0 12 14 A 1 1 0 0 0 13 13 L 13 9 A 1 1 0 0 0 12 8 z M 12 16 A 1 1 0 0 0 11 17 A 1 1 0 0 0 12 18 L 12.009766 18 A 1 1 0 0 0 13.009766 17 A 1 1 0 0 0 12.009766 16 L 12 16 z "/>
 </svg>

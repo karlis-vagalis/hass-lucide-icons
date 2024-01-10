@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="24"
-   height="24"
-   viewBox="0 0 24 24"
-   fill="none"
-   stroke="currentColor"
-   stroke-width="2"
-   stroke-linecap="round"
-   stroke-linejoin="round"
-   version="1.1"
-   id="svg2"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs2" />
-  <path
-     id="circle1"
-     style="color:#000000;fill:#000000;-inkscape-stroke:none"
-     d="M 12 4 C 10.907277 4 10 4.9072773 10 6 C 10 7.0927227 10.907277 8 12 8 C 13.092723 8 14 7.0927227 14 6 C 14 4.9072773 13.092723 4 12 4 z M 5 11 A 1 1 0 0 0 4 12 A 1 1 0 0 0 5 13 L 19 13 A 1 1 0 0 0 20 12 A 1 1 0 0 0 19 11 L 5 11 z M 12 16 C 10.907277 16 10 16.907277 10 18 C 10 19.092723 10.907277 20 12 20 C 13.092723 20 14 19.092723 14 18 C 14 16.907277 13.092723 16 12 16 z "
-     stroke-width="0" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="calculate,maths,division,operator,code,÷,/" categories="maths,development">
+  
+  <path d="M 12 4 C 10.907277 4 10 4.9072773 10 6 C 10 7.0927227 10.907277 8 12 8 C 13.092723 8 14 7.0927227 14 6 C 14 4.9072773 13.092723 4 12 4 z M 5 11 A 1 1 0 0 0 4 12 A 1 1 0 0 0 5 13 L 19 13 A 1 1 0 0 0 20 12 A 1 1 0 0 0 19 11 L 5 11 z M 12 16 C 10.907277 16 10 16.907277 10 18 C 10 19.092723 10.907277 20 12 20 C 13.092723 20 14 19.092723 14 18 C 14 16.907277 13.092723 16 12 16 z "/>
 </svg>

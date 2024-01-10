@@ -1,21 +1,21 @@
 const DOMAIN = "lucide-icons";
 
 // Icon store to store already fetched and loaded icons
-const ICONS = {};
+const LUCIDE_STORE = {};
 
 async function getIcon(name) {
 
     let icon = undefined;
 
-    if (ICONS[name] !== undefined) {
-        icon = ICONS[name];
+    if (LUCIDE_STORE[name] !== undefined) {
+        icon = LUCIDE_STORE[name];
     } else {
         const response = await fetch(`/${DOMAIN}/icons/${name}.svg`);
 
         if (!response.ok) return {};
         icon = await response.text();
         icon = extractPath(icon);
-        ICONS[name] = icon;
+        LUCIDE_STORE[name] = icon;
     }
     
     return {

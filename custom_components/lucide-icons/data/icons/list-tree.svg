@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="24"
-   height="24"
-   viewBox="0 0 24 24"
-   fill="none"
-   stroke="currentColor"
-   stroke-width="2"
-   stroke-linecap="round"
-   stroke-linejoin="round"
-   version="1.1"
-   id="svg5"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs5" />
-  <path
-     id="path1"
-     style="color:#000000;fill:#000000;-inkscape-stroke:none"
-     d="M 3 5 A 1 1 0 0 0 2 6 L 2 10 L 2 16 C 2 17.645451 3.3545487 19 5 19 L 8 19 A 1 1 0 0 0 9 18 A 1 1 0 0 0 8 17 L 5 17 C 4.4454557 17 4 16.554544 4 16 L 4 12.826172 C 4.3132452 12.938351 4.6502556 13 5 13 L 8 13 A 1 1 0 0 0 9 12 A 1 1 0 0 0 8 11 L 5 11 C 4.4454557 11 4 10.554544 4 10 L 4 6 A 1 1 0 0 0 3 5 z M 8 5 A 1 1 0 0 0 7 6 A 1 1 0 0 0 8 7 L 21 7 A 1 1 0 0 0 22 6 A 1 1 0 0 0 21 5 L 8 5 z M 13 11 A 1 1 0 0 0 12 12 A 1 1 0 0 0 13 13 L 21 13 A 1 1 0 0 0 22 12 A 1 1 0 0 0 21 11 L 13 11 z M 13 17 A 1 1 0 0 0 12 18 A 1 1 0 0 0 13 19 L 21 19 A 1 1 0 0 0 22 18 A 1 1 0 0 0 21 17 L 13 17 z "
-     stroke-width="0" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="tree,browser" categories="files,text,layout">
+  
+  <path d="M 3 5 A 1 1 0 0 0 2 6 L 2 10 L 2 16 C 2 17.645451 3.3545487 19 5 19 L 8 19 A 1 1 0 0 0 9 18 A 1 1 0 0 0 8 17 L 5 17 C 4.4454557 17 4 16.554544 4 16 L 4 12.826172 C 4.3132452 12.938351 4.6502556 13 5 13 L 8 13 A 1 1 0 0 0 9 12 A 1 1 0 0 0 8 11 L 5 11 C 4.4454557 11 4 10.554544 4 10 L 4 6 A 1 1 0 0 0 3 5 z M 8 5 A 1 1 0 0 0 7 6 A 1 1 0 0 0 8 7 L 21 7 A 1 1 0 0 0 22 6 A 1 1 0 0 0 21 5 L 8 5 z M 13 11 A 1 1 0 0 0 12 12 A 1 1 0 0 0 13 13 L 21 13 A 1 1 0 0 0 22 12 A 1 1 0 0 0 21 11 L 13 11 z M 13 17 A 1 1 0 0 0 12 18 A 1 1 0 0 0 13 19 L 21 19 A 1 1 0 0 0 22 18 A 1 1 0 0 0 21 17 L 13 17 z "/>
 </svg>

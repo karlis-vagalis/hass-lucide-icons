@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="24"
-   height="24"
-   viewBox="0 0 24 24"
-   fill="none"
-   stroke="currentColor"
-   stroke-width="2"
-   stroke-linecap="round"
-   stroke-linejoin="round"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <path
-     id="circle1"
-     style="color:#000000;fill:#000000;-inkscape-stroke:none"
-     d="M 12.099609 10.099609 C 11.006887 10.099609 10.099609 11.006887 10.099609 12.099609 C 10.099609 13.192332 11.006887 14.099609 12.099609 14.099609 C 13.192332 14.099609 14.099609 13.192332 14.099609 12.099609 C 14.099609 11.006887 13.192332 10.099609 12.099609 10.099609 z "
-     stroke-width="0" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="interpunct,interpoint,middot,step,punctuation,period,full stop,end,finish,final,characters,font,typography,type,center,." categories="shapes,text">
+  
+  <path d="M 12.099609 10.099609 C 11.006887 10.099609 10.099609 11.006887 10.099609 12.099609 C 10.099609 13.192332 11.006887 14.099609 12.099609 14.099609 C 13.192332 14.099609 14.099609 13.192332 14.099609 12.099609 C 14.099609 11.006887 13.192332 10.099609 12.099609 10.099609 z "/>
 </svg>

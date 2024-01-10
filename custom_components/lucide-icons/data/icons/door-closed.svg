@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="24"
-   height="24"
-   viewBox="0 0 24 24"
-   fill="none"
-   stroke="currentColor"
-   stroke-width="2"
-   stroke-linecap="round"
-   stroke-linejoin="round"
-   version="1.1"
-   id="svg3"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs3" />
-  <path
-     id="path1"
-     style="color:#000000;fill:#000000;-inkscape-stroke:none"
-     d="M 8 3 C 6.3549936 3 5 4.3549936 5 6 L 5 19 L 2 19 A 1 1 0 0 0 1 20 A 1 1 0 0 0 2 21 L 22 21 A 1 1 0 0 0 23 20 A 1 1 0 0 0 22 19 L 19 19 L 19 6 C 19 4.3549936 17.645006 3 16 3 L 8 3 z M 8 5 L 16 5 C 16.564128 5 17 5.4358718 17 6 L 17 19 L 7 19 L 7 6 C 7 5.4358718 7.4358718 5 8 5 z M 14 11 A 1 1 0 0 0 13 12 L 13 12.009766 A 1 1 0 0 0 14 13.009766 A 1 1 0 0 0 15 12.009766 L 15 12 A 1 1 0 0 0 14 11 z "
-     stroke-width="0" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="entrance,entry,exit,ingress,egress,gate,gateway,emergency exit" categories="home,travel,furniture,security">
+  
+  <path d="M 8 3 C 6.3549936 3 5 4.3549936 5 6 L 5 19 L 2 19 A 1 1 0 0 0 1 20 A 1 1 0 0 0 2 21 L 22 21 A 1 1 0 0 0 23 20 A 1 1 0 0 0 22 19 L 19 19 L 19 6 C 19 4.3549936 17.645006 3 16 3 L 8 3 z M 8 5 L 16 5 C 16.564128 5 17 5.4358718 17 6 L 17 19 L 7 19 L 7 6 C 7 5.4358718 7.4358718 5 8 5 z M 14 11 A 1 1 0 0 0 13 12 L 13 12.009766 A 1 1 0 0 0 14 13.009766 A 1 1 0 0 0 15 12.009766 L 15 12 A 1 1 0 0 0 14 11 z "/>
 </svg>

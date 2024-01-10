@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="24"
-   height="24"
-   viewBox="0 0 24 24"
-   fill="none"
-   stroke="currentColor"
-   stroke-width="2"
-   stroke-linecap="round"
-   stroke-linejoin="round"
-   version="1.1"
-   id="svg3"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs3" />
-  <path
-     id="path1"
-     style="color:#000000;fill:#000000;-inkscape-stroke:none"
-     d="M 4.5 2 A 1 1 0 0 0 3.5 3 A 1 1 0 0 0 4.5 4 L 5 4 L 5 14 L 5 19 C 5 20.645006 6.3549936 22 8 22 L 16 22 C 17.645006 22 19 20.645006 19 19 L 19 14 L 19 4 L 19.5 4 A 1 1 0 0 0 20.5 3 A 1 1 0 0 0 19.5 2 L 4.5 2 z M 7 4 L 17 4 L 17 13 L 7 13 L 7 4 z M 7 15 L 17 15 L 17 19 C 17 19.564128 16.564128 20 16 20 L 8 20 C 7.4358718 20 7 19.564128 7 19 L 7 15 z "
-     stroke-width="0" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="cup,lab,chemistry,experiment,test" categories="science,gaming">
+  
+  <path d="M 4.5 2 A 1 1 0 0 0 3.5 3 A 1 1 0 0 0 4.5 4 L 5 4 L 5 14 L 5 19 C 5 20.645006 6.3549936 22 8 22 L 16 22 C 17.645006 22 19 20.645006 19 19 L 19 14 L 19 4 L 19.5 4 A 1 1 0 0 0 20.5 3 A 1 1 0 0 0 19.5 2 L 4.5 2 z M 7 4 L 17 4 L 17 13 L 7 13 L 7 4 z M 7 15 L 17 15 L 17 19 C 17 19.564128 16.564128 20 16 20 L 8 20 C 7.4358718 20 7 19.564128 7 19 L 7 15 z "/>
 </svg>
