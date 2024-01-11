@@ -1,19 +1,25 @@
 # hass-lucide-icons
 
-This is custom component enables the usage of [Lucide](https://lucide.dev/) icon pack.
-Huge thanks to Thomas Lovén and his custom component [hass-fontawesome](https://github.com/thomasloven/hass-fontawesome) for providing a good template to achieve this.
+This is custom component/ enables the usage of the awesome [Lucide](https://lucide.dev/) icon pack.
 
-This custom component is in early stages and is being actively developed and improved.
-
-HACS respository installation is in works and pending. You may however add this repository as `Custom Repository` in HACS to install it.
+Huge thanks to *Thomas Lovén* and his custom component [hass-fontawesome](https://github.com/thomasloven/hass-fontawesome), which helped me a lot to develop this icon set integration.
 
 ## Installation
 
-1. Copy `lucide-icons` folder to your custom components.
-2. Restart HA
-3. Install component under HA Integrations
+### HACS
 
-## Examples
+HACS respository installation is in works and pending. You may however add this repository as `Custom Repository` in HACS to install it.
+
+### Manual
+
+1. Copy `lucide-icons` folder to your custom components.
+2. Restart Home Assistant
+3. Install `Lucide Icons` component under Home Assistant > Integrations
+4. Restart Home Assistant
+
+## Usage
+
+This icon pack uses prefix `lucide` to access icons. For example:
 ```
 lucide:trash
 
@@ -21,3 +27,9 @@ lucide:circle-dot
 
 ...
 ```
+
+## Features
+
+This icon pack integration also supports icon keywords, which means you can use keywords/aliases of the icons to search icons inside the native Home Assistant icon dialog. For example, icon `cpu` has additional aliases/keywords and one of them is `processor`. Therefore we may type `processor` in icon search bar in Home Assistant and voila, the correct icon is suggested as seen here:
+
+![keywords example](./docs/images/keywords.png)

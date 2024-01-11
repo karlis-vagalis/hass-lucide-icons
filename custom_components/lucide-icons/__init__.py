@@ -6,6 +6,7 @@ from homeassistant.helpers import config_validation
 
 import json
 from os import walk, path
+from xml.etree import ElementTree
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -30,13 +31,15 @@ class IconListView(HomeAssistantView):
 
     async def get(self, request):
         icons = []
-        for (dirpath, dirnames, filenames) in walk(self.iconpath):
-            icons.extend(
-                [
-                    {"name": path.join(dirpath[len(self.iconpath):], fn[:-4])}
-                    for fn in filenames if fn.endswith(".svg")
-                ]
-            )
+        for (root, dirs, files) in walk(self.iconpath):
+            for file in files:
+                if file.endswith(".svg"):
+                    name = file[:-4]
+                    svg = ElementTree.parse(path.join(root, file)).getroot()
+                    keywords = []
+                    if "tags" in svg.attrib:
+                        keywords = svg.attrib["tags"].split(",")
+                    icons.append({"name": name, "keywords": keywords})
         return json.dumps(icons)
 
 async def async_setup(hass, config):
