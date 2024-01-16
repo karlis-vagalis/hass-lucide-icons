@@ -1,6 +1,6 @@
 # hass-lucide-icons
 
-This is custom component/ enables the usage of the awesome [Lucide](https://lucide.dev/) icon pack.
+This is custom component/integration enables the usage of the awesome [Lucide](https://lucide.dev/) icon pack.
 
 Huge thanks to *Thomas Lovén* and his custom component [hass-fontawesome](https://github.com/thomasloven/hass-fontawesome), which helped me a lot to develop this icon set integration.
 
@@ -8,7 +8,9 @@ Huge thanks to *Thomas Lovén* and his custom component [hass-fontawesome](https
 
 ### HACS
 
-HACS respository installation is in works and pending. You may however add this repository as `Custom Repository` in HACS to install it.
+See [#5072](https://github.com/home-assistant/brands/pull/5072)
+
+To install via HACS add this repository as `Custom Repository` in HACS. Then search for `Lucide icons`. Install.
 
 ### Manual
 
