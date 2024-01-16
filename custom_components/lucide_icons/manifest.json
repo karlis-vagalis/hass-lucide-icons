@@ -1,5 +1,5 @@
 {
-    "domain": "lucide-icons",
+    "domain": "lucide_icons",
     "iot_class": "local_polling",
     "name": "Lucide Icons",
     "documentation": "https://github.com/karlis-vagalis/hass-lucide-icons",

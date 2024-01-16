@@ -12,7 +12,7 @@ HACS respository installation is in works and pending. You may however add this 
 
 ### Manual
 
-1. Copy `lucide-icons` folder to your custom components.
+1. Copy `lucide_icons` folder to your custom components.
 2. Restart Home Assistant
 3. Install `Lucide Icons` component under Home Assistant > Integrations
 4. Restart Home Assistant

@@ -1,4 +1,4 @@
-const DOMAIN = "lucide-icons";
+const DOMAIN = "lucide_icons";
 
 // Icon store to store already fetched and loaded icons
 const LUCIDE_STORE = {};

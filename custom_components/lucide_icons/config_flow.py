@@ -3,7 +3,7 @@ from homeassistant import config_entries
 
 _LOGGER = logging.getLogger(__name__)
 
-@config_entries.HANDLERS.register("lucide-icons")
+@config_entries.HANDLERS.register("lucide_icons")
 class LucideIconsConfigFlow(config_entries.ConfigFlow):
     async def async_step_user(self, user_input=None):
         if self._async_current_entries():

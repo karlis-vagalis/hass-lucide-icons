@@ -10,7 +10,7 @@ from xml.etree import ElementTree
 
 _LOGGER = logging.getLogger(__name__)
 
-DOMAIN = "lucide-icons"
+DOMAIN = "lucide_icons"
 SCRIPT_NAME = "main.js"
 
 FRONTEND_SCRIPT_URL = f"/{DOMAIN}/{SCRIPT_NAME}"
