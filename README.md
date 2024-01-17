@@ -19,6 +19,10 @@ To install via HACS add this repository as `Custom Repository` in HACS. Then sea
 3. Install `Lucide Icons` component under Home Assistant > Integrations
 4. Restart Home Assistant
 
+## Development
+
+If you are interested in the processing workflow done on the Lucide icons themselves to make them Home Assistant compatible, I wrote a small tutorial [here](https://karlislab.com/posts/tutorials/programming/hass-lucide-icons/) on my blog.
+
 ## Usage
 
 This icon pack uses prefix `lucide` to access icons. For example:
