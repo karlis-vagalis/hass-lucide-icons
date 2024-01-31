@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="todo,tasks,items,pending,image,photo" categories="design,layout,photography,text">
-  
   <path d="M 4 2 C 2.9092994 2 2 2.9092994 2 4 L 2 9 C 2 10.090701 2.9092994 11 4 11 L 9 11 C 10.090701 11 11 10.090701 11 9 L 11 4 C 11 2.9092994 10.090701 2 9 2 L 4 2 z M 14 3 A 1 1 0 0 0 13 4 A 1 1 0 0 0 14 5 L 21 5 A 1 1 0 0 0 22 4 A 1 1 0 0 0 21 3 L 14 3 z M 4 4 L 9 4 L 9 9 L 4 9 L 4 4 z M 14 8 A 1 1 0 0 0 13 9 A 1 1 0 0 0 14 10 L 21 10 A 1 1 0 0 0 22 9 A 1 1 0 0 0 21 8 L 14 8 z M 4 13 C 2.9092994 13 2 13.909299 2 15 L 2 20 C 2 21.090701 2.9092994 22 4 22 L 9 22 C 10.090701 22 11 21.090701 11 20 L 11 15 C 11 13.909299 10.090701 13 9 13 L 4 13 z M 14 14 A 1 1 0 0 0 13 15 A 1 1 0 0 0 14 16 L 21 16 A 1 1 0 0 0 22 15 A 1 1 0 0 0 21 14 L 14 14 z M 4 15 L 9 15 L 9 20 L 4 20 L 4 15 z M 14 19 A 1 1 0 0 0 13 20 A 1 1 0 0 0 14 21 L 21 21 A 1 1 0 0 0 22 20 A 1 1 0 0 0 21 19 L 14 19 z "/>
 </svg>

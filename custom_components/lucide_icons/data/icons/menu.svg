@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="bars,navigation,hamburger,options" categories="layout,account">
-  
   <path d="M 4 5 A 1 1 0 0 0 3 6 A 1 1 0 0 0 4 7 L 20 7 A 1 1 0 0 0 21 6 A 1 1 0 0 0 20 5 L 4 5 z M 4 11 A 1 1 0 0 0 3 12 A 1 1 0 0 0 4 13 L 20 13 A 1 1 0 0 0 21 12 A 1 1 0 0 0 20 11 L 4 11 z M 4 17 A 1 1 0 0 0 3 18 A 1 1 0 0 0 4 19 L 20 19 A 1 1 0 0 0 21 18 A 1 1 0 0 0 20 17 L 4 17 z "/>
 </svg>

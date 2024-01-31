@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="reading,pages,booklet,magazine,leaflet,pamphlet,library,writing,written,writer,author,story,script,screenplay,fiction,novel,information,knowledge,education,high school,university,college,academy,student,study,learning,homework,research,documentation,revealed,blank,plain" categories="text,development,gaming">
-  
   <path d="M 2 2 A 1.0001 1.0001 0 0 0 1 3 L 1 18 A 1.0001 1.0001 0 0 0 2 19 L 9 19 C 10.116412 19 11 19.883588 11 21 A 1.0001 1.0001 0 0 0 13 21 C 13 19.883588 13.883588 19 15 19 L 22 19 A 1.0001 1.0001 0 0 0 23 18 L 23 3 A 1.0001 1.0001 0 0 0 22 2 L 16 2 C 14.366186 2 12.91391 2.7977893 12 4.0195312 C 11.08609 2.7977893 9.6338144 2 8 2 L 2 2 z M 3 4 L 8 4 C 9.6686955 4 11 5.3313045 11 7 L 11 17.619141 C 10.401871 17.261655 9.742643 17 9 17 L 3 17 L 3 4 z M 16 4 L 21 4 L 21 17 L 15 17 C 14.257357 17 13.598129 17.261655 13 17.619141 L 13 7 C 13 5.3313045 14.331305 4 16 4 z "/>
 </svg>

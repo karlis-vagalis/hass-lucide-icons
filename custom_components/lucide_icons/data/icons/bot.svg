@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="robot,ai,chat,assistant" categories="development,social">
-  
   <path d="M 8 3 A 1 1 0 0 0 7 4 A 1 1 0 0 0 8 5 L 11 5 L 11 7 L 6 7 C 4.3553005 7 3 8.3553005 3 10 L 3 13 L 2 13 A 1 1 0 0 0 1 14 A 1 1 0 0 0 2 15 L 3 15 L 3 18 C 3 19.644699 4.3553005 21 6 21 L 18 21 C 19.644699 21 21 19.644699 21 18 L 21 15 L 22 15 A 1 1 0 0 0 23 14 A 1 1 0 0 0 22 13 L 21 13 L 21 10 C 21 8.3553005 19.644699 7 18 7 L 13 7 L 13 4 A 1.0001 1.0001 0 0 0 12 3 L 8 3 z M 6 9 L 18 9 C 18.571296 9 19 9.4287039 19 10 L 19 18 C 19 18.571296 18.571296 19 18 19 L 6 19 C 5.4287039 19 5 18.571296 5 18 L 5 10 C 5 9.4287039 5.4287039 9 6 9 z M 9 12 A 1 1 0 0 0 8 13 L 8 15 A 1 1 0 0 0 9 16 A 1 1 0 0 0 10 15 L 10 13 A 1 1 0 0 0 9 12 z M 15 12 A 1 1 0 0 0 14 13 L 14 15 A 1 1 0 0 0 15 16 A 1 1 0 0 0 16 15 L 16 13 A 1 1 0 0 0 15 12 z "/>
 </svg>
