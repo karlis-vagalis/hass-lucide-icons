@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="statistics,diagram,graph" categories="charts">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="statistics,analytics,diagram,graph" categories="charts">
   <path d="M 12 3 A 1 1 0 0 0 11 4 L 11 20 A 1 1 0 0 0 12 21 A 1 1 0 0 0 13 20 L 13 4 A 1 1 0 0 0 12 3 z M 18 9 A 1 1 0 0 0 17 10 L 17 20 A 1 1 0 0 0 18 21 A 1 1 0 0 0 19 20 L 19 10 A 1 1 0 0 0 18 9 z M 6 13 A 1 1 0 0 0 5 14 L 5 20 A 1 1 0 0 0 6 21 A 1 1 0 0 0 7 20 L 7 14 A 1 1 0 0 0 6 13 z "/>
 </svg>
