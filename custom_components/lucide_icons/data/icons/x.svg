@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="cancel,close,delete,remove,times,clear,maths,multiply,multiplication" categories="notifications,maths">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="cancel,close,delete,remove,times,clear,math,multiply,multiplication" categories="notifications,math">
   <path d="M 6 5 A 1 1 0 0 0 5.2929688 5.2929688 A 1 1 0 0 0 5.2929688 6.7070312 L 10.585938 12 L 5.2929688 17.292969 A 1 1 0 0 0 5.2929688 18.707031 A 1 1 0 0 0 6.7070312 18.707031 L 12 13.414062 L 17.292969 18.707031 A 1 1 0 0 0 18.707031 18.707031 A 1 1 0 0 0 18.707031 17.292969 L 13.414062 12 L 18.707031 6.7070312 A 1 1 0 0 0 18.707031 5.2929688 A 1 1 0 0 0 17.292969 5.2929688 L 12 10.585938 L 6.7070312 5.2929688 A 1 1 0 0 0 6 5 z "/>
 </svg>
