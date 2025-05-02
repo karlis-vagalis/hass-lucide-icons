@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="entrance,entry,exit,ingress,egress,gate,gateway,emergency exit" categories="home,travel,security">
-  <path d="M 8 3 C 6.3549904 3 5 4.3549904 5 6 L 5 19 L 2 19 A 1 1 0 0 0 1 20 A 1 1 0 0 0 2 21 L 22 21 A 1 1 0 0 0 23 20 A 1 1 0 0 0 22 19 L 19 19 L 19 6 C 19 4.3549904 17.64501 3 16 3 L 8 3 z M 8 5 L 16 5 C 16.564129 5 17 5.4358706 17 6 L 17 19 L 7 19 L 7 6 C 7 5.4358706 7.4358706 5 8 5 z M 14 11 A 1 1 0 0 0 13 12 L 13 12.009766 A 1 1 0 0 0 14 13.009766 A 1 1 0 0 0 15 12.009766 L 15 12 A 1 1 0 0 0 14 11 z "/>
+  <path d="M 8 3 C 6.3549904 3 5 4.3549904 5 6 L 5 19 L 2 19 A 1 1 0 0 0 1 20 A 1 1 0 0 0 2 21 L 6 21 L 18 21 L 22 21 A 1 1 0 0 0 23 20 A 1 1 0 0 0 22 19 L 19 19 L 19 6 C 19 4.3549904 17.64501 3 16 3 L 8 3 z M 8 5 L 16 5 C 16.564129 5 17 5.4358706 17 6 L 17 19 L 7 19 L 7 6 C 7 5.4358706 7.4358706 5 8 5 z M 10 11 A 1 1 0 0 0 9 12 A 1 1 0 0 0 10 13 L 10.009766 13 A 1 1 0 0 0 11.009766 12 A 1 1 0 0 0 10.009766 11 L 10 11 z "/>
 </svg>
