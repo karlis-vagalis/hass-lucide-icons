@@ -3,6 +3,7 @@ import logging
 from homeassistant.components.frontend import add_extra_js_url
 from homeassistant.components.http.view import HomeAssistantView
 from homeassistant.helpers import config_validation
+from homeassistant.components.http import StaticPathConfig
 
 import json
 from os import walk, path
@@ -44,21 +45,13 @@ class IconListView(HomeAssistantView):
 
 async def async_setup(hass, config):
     
-    # Expose main script which does icon loading on frontend
-    hass.http.register_static_path(
-        FRONTEND_SCRIPT_URL,
-        hass.config.path(f"custom_components/{DOMAIN}/data/{SCRIPT_NAME}"),
-        True,
-    )
+    # Expose main script which does icon loading on frontend and icon folder
+    await hass.http.async_register_static_paths([
+        StaticPathConfig(FRONTEND_SCRIPT_URL, hass.config.path(f"custom_components/{DOMAIN}/data/{SCRIPT_NAME}"), True)
+        StaticPathConfig(ICON_URL, hass.config.path(f"custom_components/{DOMAIN}/data/icons"), True)
+    ])
     # Register main script as frontend resource
     add_extra_js_url(hass, FRONTEND_SCRIPT_URL)
-
-    # Exposing icon folder
-    hass.http.register_static_path(
-        ICON_URL,
-        hass.config.path(f"custom_components/{DOMAIN}/data/icons"),
-        True,
-    )
 
     # Register icon view, aka list when typing icon name
     hass.http.register_view(
