@@ -47,7 +47,7 @@ async def async_setup(hass, config):
     
     # Expose main script which does icon loading on frontend and icon folder
     await hass.http.async_register_static_paths([
-        StaticPathConfig(FRONTEND_SCRIPT_URL, hass.config.path(f"custom_components/{DOMAIN}/data/{SCRIPT_NAME}"), True)
+        StaticPathConfig(FRONTEND_SCRIPT_URL, hass.config.path(f"custom_components/{DOMAIN}/data/{SCRIPT_NAME}"), True),
         StaticPathConfig(ICON_URL, hass.config.path(f"custom_components/{DOMAIN}/data/icons"), True)
     ])
     # Register main script as frontend resource
