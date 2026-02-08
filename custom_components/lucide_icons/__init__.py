@@ -7,6 +7,8 @@ from homeassistant.components.frontend import add_extra_js_url
 from homeassistant.components.http import StaticPathConfig
 from homeassistant.helpers import config_validation
 from homeassistant.helpers.http import HomeAssistantView
+from homeassistant.core import HomeAssistant
+from homeassistant.helpers.typing import ConfigType
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -22,16 +24,16 @@ CONFIG_SCHEMA = config_validation.empty_config_schema(DOMAIN)
 
 
 class IconListView(HomeAssistantView):
+    url = LIST_URL
     requires_auth = False
 
-    def __init__(self, url, iconpath):
-        self.url = url
-        self.iconpath = iconpath
-        self.name = "Icon Listing"
+    def __init__(self, hass: HomeAssistant):
+        self._hass = hass
+        self._icon_dir = hass.config.path(f"custom_components/{DOMAIN}/data/icons")
 
-    async def get(self, request):
+    def _get_icons(self):
         icons = []
-        for root, dirs, files in walk(self.iconpath):
+        for root, dirs, files in walk(self._icon_dir):
             for file in files:
                 if file.endswith(".svg"):
                     name = file[:-4]
@@ -40,11 +42,14 @@ class IconListView(HomeAssistantView):
                     if "tags" in svg.attrib:
                         keywords = svg.attrib["tags"].split(",")
                     icons.append({"name": name, "keywords": keywords})
+        return icons
+
+    async def get(self, request):
+        icons = await self._hass.async_add_executor_job(self._get_icons)
         return json.dumps(icons)
 
 
-async def async_setup(hass, config):
-
+async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
     # Expose main script which does icon loading on frontend and icon folder
     await hass.http.async_register_static_paths(
         [
@@ -64,11 +69,7 @@ async def async_setup(hass, config):
     add_extra_js_url(hass, FRONTEND_SCRIPT_URL)
 
     # Register icon view, aka list when typing icon name
-    hass.http.register_view(
-        IconListView(
-            LIST_URL, hass.config.path(f"custom_components/{DOMAIN}/data/icons")
-        )
-    )
+    hass.http.register_view(IconListView(hass))
 
     # Return boolean to indicate that initialization was successful.
     return True

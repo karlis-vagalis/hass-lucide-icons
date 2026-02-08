@@ -28,6 +28,7 @@ class Version:
 def setup_workspace() -> None:
     WORKSPACE.mkdir(parents=True, exist_ok=True)
 
+
 def setup_version_workspace(version: Version) -> Path:
     folder = WORKSPACE / version.version
     folder.mkdir(parents=True, exist_ok=True)
@@ -74,7 +75,6 @@ def get_latest_valid_release() -> Version:
 
 
 def download_and_extract(version: Version, workspace: Path) -> Path:
-
     zip_path = workspace / "lucide-icons.zip"
     raw_output = workspace / "raw"
 
@@ -85,12 +85,11 @@ def download_and_extract(version: Version, workspace: Path) -> Path:
 
     if raw_output.exists():
         shutil.rmtree(raw_output)
-        
-    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+
+    with zipfile.ZipFile(zip_path, "r") as zip_ref:
         zip_ref.extractall(raw_output)
 
     return raw_output / "icons"
-
 
 
 def run_inkscape(icon_dir: Path):
@@ -158,7 +157,10 @@ def process_svg(workspace: Path, icon_dir: Path):
                     del path.attrib["stroke-width"]
 
             tree.write(
-                icon_destination, pretty_print=True, xml_declaration=False, encoding="utf-8"
+                icon_destination,
+                pretty_print=True,
+                xml_declaration=False,
+                encoding="utf-8",
             )
 
         except Exception as e:
@@ -168,7 +170,6 @@ def process_svg(workspace: Path, icon_dir: Path):
 
 
 def main():
-
     setup_workspace()
 
     version = get_latest_valid_release()
@@ -180,6 +181,7 @@ def main():
     output_dir = process_svg(workspace, icon_dir)
 
     shutil.copytree(output_dir, DESTINATION, dirs_exist_ok=True)
+
 
 if __name__ == "__main__":
     main()
