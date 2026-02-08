@@ -8,9 +8,13 @@ Huge thanks to *Thomas Lovén* and his custom component [hass-fontawesome](https
 
 ### HACS
 
-See [#5072](https://github.com/home-assistant/brands/pull/5072)
+This intergation, will is not listed in HACS natively. For more details, please see [#5072](https://github.com/home-assistant/brands/pull/5072)
 
-To install via HACS add this repository as `Custom Repository` in HACS. Then search for `Lucide icons`. Install.
+However, you can add it as a custom repository by:
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?category=Integration&owner=karlis-vagalis&repository=hass-lucide-icons)
+
+Or by manually adding `Custom Repository` in HACS: `karlis-vagalis/hass-lucide-icons`.
 
 ### Manual
 
