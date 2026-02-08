@@ -1,13 +1,12 @@
+import json
 import logging
+from os import path, walk
+from xml.etree import ElementTree
 
 from homeassistant.components.frontend import add_extra_js_url
-from homeassistant.components.http.view import HomeAssistantView
-from homeassistant.helpers import config_validation
 from homeassistant.components.http import StaticPathConfig
-
-import json
-from os import walk, path
-from xml.etree import ElementTree
+from homeassistant.helpers import config_validation
+from homeassistant.helpers.http import HomeAssistantView
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -21,8 +20,8 @@ LIST_URL = f"/{DOMAIN}/list"
 DATA_EXTRA_MODULE_URL = "frontend_extra_module_url"
 CONFIG_SCHEMA = config_validation.empty_config_schema(DOMAIN)
 
-class IconListView(HomeAssistantView):
 
+class IconListView(HomeAssistantView):
     requires_auth = False
 
     def __init__(self, url, iconpath):
@@ -32,7 +31,7 @@ class IconListView(HomeAssistantView):
 
     async def get(self, request):
         icons = []
-        for (root, dirs, files) in walk(self.iconpath):
+        for root, dirs, files in walk(self.iconpath):
             for file in files:
                 if file.endswith(".svg"):
                     name = file[:-4]
@@ -43,21 +42,31 @@ class IconListView(HomeAssistantView):
                     icons.append({"name": name, "keywords": keywords})
         return json.dumps(icons)
 
+
 async def async_setup(hass, config):
-    
+
     # Expose main script which does icon loading on frontend and icon folder
-    await hass.http.async_register_static_paths([
-        StaticPathConfig(FRONTEND_SCRIPT_URL, hass.config.path(f"custom_components/{DOMAIN}/data/{SCRIPT_NAME}"), True),
-        StaticPathConfig(ICON_URL, hass.config.path(f"custom_components/{DOMAIN}/data/icons"), True)
-    ])
+    await hass.http.async_register_static_paths(
+        [
+            StaticPathConfig(
+                FRONTEND_SCRIPT_URL,
+                hass.config.path(f"custom_components/{DOMAIN}/data/{SCRIPT_NAME}"),
+                True,
+            ),
+            StaticPathConfig(
+                ICON_URL,
+                hass.config.path(f"custom_components/{DOMAIN}/data/icons"),
+                True,
+            ),
+        ]
+    )
     # Register main script as frontend resource
     add_extra_js_url(hass, FRONTEND_SCRIPT_URL)
 
     # Register icon view, aka list when typing icon name
     hass.http.register_view(
         IconListView(
-            LIST_URL,
-            hass.config.path(f"custom_components/{DOMAIN}/data/icons")
+            LIST_URL, hass.config.path(f"custom_components/{DOMAIN}/data/icons")
         )
     )
 

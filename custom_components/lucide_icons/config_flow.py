@@ -1,7 +1,9 @@
 import logging
+
 from homeassistant import config_entries
 
 _LOGGER = logging.getLogger(__name__)
+
 
 @config_entries.HANDLERS.register("lucide_icons")
 class LucideIconsConfigFlow(config_entries.ConfigFlow):

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="code,version control,waypoint,stop,station" categories="development,navigation">
   <path d="M 12 8 C 10.147574 8 8.5747695 9.2812389 8.1269531 11 L 3 11 A 1 1 0 0 0 2 12 A 1 1 0 0 0 3 13 L 8.1269531 13 C 8.5747696 14.718761 10.147574 16 12 16 C 13.852426 16 15.42523 14.718761 15.873047 13 L 21 13 A 1 1 0 0 0 22 12 A 1 1 0 0 0 21 11 L 15.873047 11 C 15.42523 9.2812389 13.852426 8 12 8 z M 12 10 C 13.116414 10 14 10.883586 14 12 C 14 13.116414 13.116414 14 12 14 C 10.883586 14 10 13.116414 10 12 C 10 10.883586 10.883586 10 12 10 z "/>
 </svg>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="report,timeline,marker,pin" categories="development,navigation">
   <path d="M 6.7324219 1.0136719 C 5.8285049 1.0711732 4.9991353 1.8192656 5 2.8007812 L 5 22 A 1 1 0 0 0 6 23 A 1 1 0 0 0 7 22 L 7 16.117188 L 18.998047 10.115234 L 18.986328 10.119141 C 20.280355 9.4924143 20.280355 7.5075853 18.986328 6.8808594 L 18.998047 6.8847656 L 7.6328125 1.203125 C 7.3427356 1.0518078 7.0337275 0.99450478 6.7324219 1.0136719 z M 7 3.1230469 L 17.755859 8.5 L 7 13.880859 L 7 3.1230469 z "/>
 </svg>

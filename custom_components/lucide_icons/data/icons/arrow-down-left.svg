@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="direction,south-west,diagonal" categories="arrows,navigation">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" tags="direction,south-west,diagonal" categories="arrows">
   <path d="M 7 6 A 1 1 0 0 0 6 7 L 6 17 A 1 1 0 0 0 6.0078125 17.130859 A 1.0001 1.0001 0 0 0 6.0761719 17.382812 A 1 1 0 0 0 6.2929688 17.707031 A 1 1 0 0 0 6.6171875 17.923828 A 1.0001 1.0001 0 0 0 6.8691406 17.992188 A 1 1 0 0 0 7 18 L 17 18 A 1 1 0 0 0 18 17 A 1 1 0 0 0 17 16 L 9.4140625 16 L 17.707031 7.7070312 A 1 1 0 0 0 17.707031 6.2929688 A 1 1 0 0 0 16.292969 6.2929688 L 8 14.585938 L 8 7 A 1 1 0 0 0 7 6 z "/>
 </svg>
