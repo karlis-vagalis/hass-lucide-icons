@@ -26,6 +26,7 @@ CONFIG_SCHEMA = config_validation.empty_config_schema(DOMAIN)
 class IconListView(HomeAssistantView):
     url = LIST_URL
     requires_auth = False
+    name = "api:lucide_icons:list"
 
     def __init__(self, hass: HomeAssistant):
         self._hass = hass
