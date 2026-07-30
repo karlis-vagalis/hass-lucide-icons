@@ -182,6 +182,8 @@ def main():
 
     shutil.copytree(output_dir, DESTINATION, dirs_exist_ok=True)
 
+    print(f"v{version.version}")
+
 
 if __name__ == "__main__":
     main()
