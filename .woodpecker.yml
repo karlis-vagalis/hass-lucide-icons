@@ -1,4 +1,4 @@
-pipeline:
+steps:
   icons:
     image: astral/uv:python3.13-trixie-slim
     commands:
@@ -16,8 +16,8 @@ pipeline:
         else
           echo "No icon changes detected — skipping commit"
         fi
-    secrets:
-      - source: lucide-icons/CI_TOKEN
-        target: CI_TOKEN
+    environment:
+      CI_TOKEN:
+        from_secret: CI_TOKEN
     when:
-      event: schedule
+      event: cron
