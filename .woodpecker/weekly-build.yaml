@@ -1,3 +1,8 @@
+when:
+  - event: manual
+  - event: cron
+    cron: "weekly-build"
+
 steps:
   - name: build-icons
     image: astral/uv:python3.13-trixie-slim
@@ -19,6 +24,3 @@ steps:
     environment:
       CI_TOKEN:
         from_secret: CI_TOKEN
-    when:
-      event: cron
-      cron: "weekly-build"
