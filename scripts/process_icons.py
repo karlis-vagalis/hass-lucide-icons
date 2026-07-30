@@ -182,7 +182,10 @@ def main():
 
     shutil.copytree(output_dir, DESTINATION, dirs_exist_ok=True)
 
-    print(f"v{version.version}")
+    version_file = ROOT / ".tmp" / "icon_version.txt"
+    version_file.write_text(version.version)
+
+    print(f"Successfully processed Lucide icons v{version.version}")
 
 
 if __name__ == "__main__":

@@ -9,18 +9,19 @@ steps:
     commands:
       - apt-get update && apt-get install -y build-essential inkscape git ca-certificates
       - uv sync --no-dev
-      - uv run python scripts/process_icons.py > /tmp/icon_output.txt 2>&1
+      - uv run python scripts/process_icons.py
       - |
-        ICON_VERSION=$(grep -oP 'v\K[\d.]+' /tmp/icon_output.txt || echo "unknown")
+        ICON_VERSION=$(cat .tmp/icon_version.txt 2>/dev/null || echo "unknown")
+
         if ! git diff --quiet || ! git diff --cached --quiet; then
           git config --global user.name "lucide-bot"
           git config --global user.email "lucide-bot@users.noreply.github.com"
           git add custom_components/lucide_icons/data/icons/
           git commit -m "chore: sync Lucide icons v${ICON_VERSION}"
-          git push https://x-access-token:${CI_TOKEN}@github.com/${CI_REPO}.git HEAD:main
+          git push https://x-access-token:${CI_TOKEN}@github.com/${CI_REPO:-karlis-vagalis/hass-lucide-icons.git} HEAD:main
         else
           echo "No icon changes detected — skipping commit"
-        fi
+              fi
     environment:
       CI_TOKEN:
         from_secret: CI_TOKEN
