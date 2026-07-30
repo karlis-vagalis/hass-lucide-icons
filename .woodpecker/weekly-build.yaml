@@ -7,7 +7,7 @@ steps:
   - name: build-icons
     image: astral/uv:python3.13-trixie-slim
     commands:
-      - apt-get update && apt-get install -y inkscape git ca-certificates
+      - apt-get update && apt-get install -y build-essential inkscape git ca-certificates
       - uv sync --no-dev
       - uv run python scripts/process_icons.py > /tmp/icon_output.txt 2>&1
       - |
