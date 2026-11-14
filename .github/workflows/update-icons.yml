@@ -1,0 +1,50 @@
+name: Update Lucide icons
+
+on:
+  schedule:
+    - cron: '23 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-lucide-icons
+  cancel-in-progress: false
+
+jobs:
+  update-icons:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Set up uv and Python
+        uses: astral-sh/setup-uv@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install Inkscape
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends inkscape
+
+      - name: Update icons
+        run: uv run --no-project --with requests --with lxml python scripts/process_icons.py
+
+      - name: Commit and push updated icons
+        run: |
+          git add custom_components/lucide_icons/data/icons/
+          if git diff --cached --quiet; then
+            echo "No icon changes detected — skipping commit"
+            exit 0
+          fi
+
+          ICON_VERSION=$(< .tmp/icon_version.txt)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: sync Lucide icons v${ICON_VERSION}"
+          git push origin HEAD
